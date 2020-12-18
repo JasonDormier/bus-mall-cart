@@ -2,3 +2,35 @@
 body {
   background-color: bisque;
 }
+table, tr, td, th{
+  border: 1px solid black;
+  padding: 5px;
+
+}
+ header{
+   width: 960px;
+   margin: 0 auto;
+ }
+ header h1{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 2em;
+   text-align: center;
+   margin: 20px;
+ }
+nav{
+  width:350px;
+  margin: 0 auto;
+}
+nav ul li{
+  display: inline-block;
+
+}
+
+section, footer{
+  width: 960px;
+  margin: 0 auto;
+}
+
+ section h1{
+   font-size: 1em;
+ }
